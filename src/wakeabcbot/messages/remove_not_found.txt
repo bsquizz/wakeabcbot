@@ -1,0 +1,3 @@
+ℹ️ '**{keyword}**' was not found in your watchlist.
+
+Use `/watchlist` to see your current watched items.

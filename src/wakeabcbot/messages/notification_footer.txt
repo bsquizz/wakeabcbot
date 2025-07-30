@@ -1,0 +1,4 @@
+💡 *Tips:*
+• Use `/search {keyword}` to see all current results
+• Use `/remove {keyword}` to stop watching this keyword
+• Inventory updates several times daily, so availability may change quickly

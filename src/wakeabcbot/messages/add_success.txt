@@ -1,0 +1,5 @@
+✅ Added '**{keyword}**' to your watchlist!
+
+I'll notify you when items matching this keyword become available.
+
+Use `/watchlist` to see all your watched items.

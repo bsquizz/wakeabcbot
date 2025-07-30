@@ -1,0 +1,27 @@
+🔍 **Wake ABC Inventory Bot Help**
+
+**Search Commands:**
+• `/search <query>` - Search the ABC inventory
+  Example: `/search whiskey`
+
+**Watchlist Commands:**
+• `/watchlist` - View your current watchlist
+• `/add <keywords>` - Add item to watchlist
+  Example: `/add buffalo trace`
+• `/remove <keywords>` - Remove item from watchlist
+  Example: `/remove vodka`
+• `/clear` - Clear your entire watchlist
+
+**Other Commands:**
+• `/start` - Show welcome message
+• `/help` - Show this help
+
+**About Watchlist:**
+When you add keywords to your watchlist, I'll automatically check the inventory periodically and notify you when matching items become available.
+
+**Tips:**
+• Use specific brand names for better results
+• Check your watchlist regularly with `/watchlist`
+• Remove items you're no longer interested in
+
+Need help? Contact the bot administrator.

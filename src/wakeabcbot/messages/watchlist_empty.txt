@@ -1,0 +1,12 @@
+📝 **Your Watchlist is Empty**
+
+Add items to your watchlist to get notified when they become available!
+
+**How to add items:**
+• `/add bourbon` - Add "bourbon" to watchlist
+• `/add buffalo trace` - Add "buffalo trace" to watchlist
+
+**Examples:**
+• Brand names: "tito's", "jack daniels"
+• Categories: "whiskey", "vodka", "rum"
+• Specific products: "buffalo trace bourbon"

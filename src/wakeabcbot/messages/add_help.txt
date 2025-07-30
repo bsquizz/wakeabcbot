@@ -1,0 +1,13 @@
+➕ **Adding Items to Watchlist**
+
+**Command:** `/add <keywords>`
+
+**Examples:**
+• `/add bourbon` - Watch for bourbon
+• `/add buffalo trace` - Watch for Buffalo Trace
+• `/add tito's vodka` - Watch for Tito's Vodka
+
+**Tips:**
+• Use specific brand names, keywords, or PLU codes for better results
+• Categories like "whiskey" or "vodka" work too
+• You can add multiple keywords

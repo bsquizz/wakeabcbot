@@ -1,0 +1,32 @@
+services:
+  wakeabcbot:
+    build: .
+    container_name: wakeabcbot
+    environment:
+      TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN}
+      DATABASE_PATH: /app/data/wakeabc_bot.db
+      CHECK_INTERVAL_MINUTES: ${CHECK_INTERVAL_MINUTES:-30}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+      WAKE_ABC_SEARCH_URL: ${WAKE_ABC_SEARCH_URL:-https://wakeabc.com/search-our-inventory/}
+    volumes:
+      - type: bind
+        source: ./data
+        target: /app/data
+    restart: unless-stopped
+    networks:
+      - wakeabcbot-network
+    healthcheck:
+      test: ["CMD-SHELL", "pgrep -f 'python run.py' || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+networks:
+  wakeabcbot-network:
+    driver: bridge
+
+# Uncomment below to define named volumes if needed in the future
+# volumes:
+#   wakeabcbot-data:
+#     driver: local

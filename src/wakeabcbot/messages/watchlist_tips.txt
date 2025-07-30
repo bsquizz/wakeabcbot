@@ -1,0 +1,4 @@
+💡 **Tips:**
+• Use `/remove <keywords>` to remove items
+• Use `/add <keywords>` to add new items
+• I check for these items every {check_interval} minutes

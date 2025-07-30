@@ -1,0 +1,5 @@
+✅ Removed '**{keyword}**' from your watchlist.
+
+You'll no longer receive notifications for this keyword.
+
+Use `/watchlist` to see your remaining watched items.

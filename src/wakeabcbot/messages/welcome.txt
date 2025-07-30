@@ -1,0 +1,19 @@
+🍾 **Welcome to Wake ABC Inventory Bot!**
+
+Hello {first_name}! I can help you search the Wake County ABC inventory and notify you when items become available.
+
+**Available Commands:**
+/search <query> - Search the inventory
+/watchlist - View your watchlist
+/add <keywords> - Add keyword to watchlist
+/remove <keywords> - Remove keyword from watchlist
+/clear - Clear your entire watchlist
+/help - Show this help message
+
+**Examples:**
+• `/search bourbon` - Search for bourbon
+• `/add buffalo trace` - Watch for Buffalo Trace
+• `/remove vodka` - Stop watching for vodka
+• `/clear` - Clear your entire watchlist
+
+Get started by searching for something or adding items to your watchlist!
